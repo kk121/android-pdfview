@@ -641,6 +641,7 @@ public class PDFView extends SurfaceView {
 
     /** Called when the PDF is loaded */
     public void loadComplete(DecodeService decodeService) {
+        if (decodeService == null) return;
         this.decodeService = decodeService;
         this.documentPageCount = decodeService.getPageCount();
 

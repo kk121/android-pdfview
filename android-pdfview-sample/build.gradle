@@ -3,8 +3,8 @@ apply plugin: 'android'
 description = 'android-pdfview-sample'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.3"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         minSdkVersion 8
